@@ -11,10 +11,8 @@ export class FormService {
 
   private _url: string = 'https://restcountries.eu/rest/v2/all';
 
-  constructor( private http: HttpClient ) {
-    console.log('servicio listo para usar');
-   }
-
+  constructor( private http: HttpClient ) {}
+  // +++ función que retorna la informacion de la API +++ //
    getData(): Observable<IForm[]> {
     return this.http.get<IForm[]>( this._url );
   }

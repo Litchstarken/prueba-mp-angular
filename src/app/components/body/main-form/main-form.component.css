@@ -1,0 +1,54 @@
+.form-bg{
+    background-color:rgba(233,233,233, 0.7);
+    padding: 1rem;
+}
+
+.form-title{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.15rem;
+    color: #4a4a4a;
+}
+
+.form-subtitle{
+    color: #707070;
+}
+
+::placeholder {
+    font-size: 0.93rem;
+}
+
+.terminos-size{
+    font-size: 0.85rem
+}
+
+.btn-enviar{
+    background-color: #154289;
+    color: #e1e1e1;
+    padding: 5px 40px;
+}
+
+.btn-enviar:disabled{
+    background-color: #707070;
+}
+
+.btn-enviar:hover{
+    background-color: #6B3176;
+}
+
+.form-control--input-error{
+    color: #942D46;
+}
+
+.form-error{
+    border:1.8px solid #942D46 !important
+}
+
+.form-control{
+    border-bottom:1.8px solid #707070
+}
+
+.form-control:focus{
+    border-bottom:1.8px solid #154289;
+}
+

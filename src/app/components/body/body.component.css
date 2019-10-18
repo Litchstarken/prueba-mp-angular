@@ -1,0 +1,26 @@
+.body--title-position{
+    position: relative;
+    top: 50%;
+}
+
+.form-position{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bg {
+    background-image: url("../../../assets/happyFamily.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-overlay-items {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 4rem;
+  }
